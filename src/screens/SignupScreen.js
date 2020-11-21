@@ -37,10 +37,10 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        marginBottom: 200
+        marginBottom: 150
     },
     contentContainerStyle: {
-        paddingVertical: 150,
+        paddingVertical: 100,
     },
 });
 
