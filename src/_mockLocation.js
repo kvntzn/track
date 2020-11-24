@@ -1,4 +1,4 @@
-import * as Location from 'expo-location'
+import * as Location from 'expo-location';
 
 const tenMetersWithDegrees = 0.0001;
 
@@ -23,4 +23,5 @@ setInterval(() => {
         watchId: Location._getCurrentWatchId(),
         location: getLocation(counter)
     });
-}, 1000)
+    counter++;
+}, 1000);
